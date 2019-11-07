@@ -17,6 +17,7 @@ end
 
 def now_serving(deli)
   deli.empty ? do puts "There is nobody waiting to be served!" : puts "Currently serving #{deli.first}."
+end
   deli.shift
   end
   
